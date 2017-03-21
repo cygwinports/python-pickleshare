@@ -1,0 +1,15 @@
+inherit python-wheel
+
+NAME="python-pickleshare"
+VERSION=0.7.4
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python concurrent dictionary module"
+DESCRIPTION="Like shelve, a PickleShareDB object acts like a normal dictionary.
+Unlike shelve, many processes can access the database simultaneously. Changing
+a value in database is immediately visible to other processes accessing the
+same database."
+
+ARCH=noarch
+
+python2_pickleshare_REQUIRES="python2-pathlib2"
