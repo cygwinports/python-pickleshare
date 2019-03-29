@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-pickleshare"
-VERSION=0.7.4
+VERSION=0.7.5
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python concurrent dictionary module"
@@ -12,4 +12,4 @@ same database."
 
 ARCH=noarch
 
-python2_pickleshare_REQUIRES="python2-pathlib2"
+python27_pickleshare_REQUIRES="python27-pathlib2"
